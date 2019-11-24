@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0e845564-6771-493d-871d-1fa9da789766" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/dist/js/hrb_alert.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/hrb_alert.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -47,7 +47,7 @@
       <updated>1574583714385</updated>
       <workItem from="1574583716309" duration="6466000" />
       <workItem from="1574591149594" duration="469000" />
-      <workItem from="1574592203607" duration="44000" />
+      <workItem from="1574592203607" duration="793000" />
     </task>
     <servers />
   </component>
