@@ -1,0 +1,134 @@
+﻿<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HRB Alert</title>
+    <link rel="stylesheet" href="dist/css/hrb_alert.css">
+    <style>
+        h1 {
+            text-align: center;
+            font-family: Vazir;
+            margin: 50px 0;
+        }
+        .demos {
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        a.demoLink {
+            height: 40px;
+            background: #607D8B;
+            margin: 0 3px;
+            border-radius: 6px;
+            padding: 0 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #fff;
+            font-family: Vazir;
+            text-decoration: none;
+        }
+        a.demoLink:hover {
+            background: #10585d;
+        }
+    </style>
+<body>
+    <h1>نحوه استفاده از کتابخانه </h1>
+   <div class="demos">
+       <a href="#" class="demoLink ok">نمایش پیغام</a>
+       <a href="#" class="demoLink okCancel">تایید</a>
+       <a href="#" class="demoLink delCancel">حذف</a>
+       <a href="#" class="demoLink htmlPopup">فرم پاپ آپ</a>
+   </div>
+</body>
+<script src="dist/js/jquery.min.js"></script>
+<script src="dist/js/hrb_alert.js"></script>
+<script>
+    $("a.demoLink.delCancel").click(function () {
+        hrb_alert(
+            [
+                'danger', //['danger','success','warning','info']
+                'مطمئنید که میخواهید حذف کنید ؟!',
+                'در صورت تایید این مطلب به صورت کامل حذف خواهد شد',
+                'delCancel', //['ok','okCancel','sendCancel','delCancel','cancel']
+            ],function hrb_success(e) { // Run in button Ok
+                setTimeout(function () {
+                    hrb_alert(
+                        [
+                            'success', //['danger','success','warning','info']
+                            'عملیات موفق!',
+                            'مطلب مورد نظر با موفقیت حذف شد',
+                            'ok', //['ok','okCancel','sendCancel','delCancel','cancel']
+                        ],function hrb_success(e) { // Run in button Ok
+                            // alert('hamidreza biglari')
+                        },function hrb_cancel(e) { // Run in button Ok
+                            // alert('hamidreza biglari')
+                        }
+                    );
+                },200);
+            },function hrb_cancel(e) { // Run in button Ok
+                // alert('hamid')
+            }
+        );
+    })
+    $("a.demoLink.ok").click(function () {
+        hrb_alert(
+            [
+                'info', //['danger','success','warning','info']
+                'کاربر گرامی',
+                'متن مورد نظر جهت نمایش به کاربر در اینجا',
+                'ok', //['ok','okCancel','sendCancel','delCancel','cancel']
+            ]);
+    })
+    $("a.demoLink.okCancel").click(function () {
+        hrb_alert(
+            [
+                'info', //['danger','success','warning','info']
+                'آیا قوانین سایت را قبول دارید؟',
+                'در صورت تایید شما موظفید طبق قوانین سایت عمل نمایید',
+                'okCancel', //['ok','okCancel','sendCancel','delCancel','cancel']
+                '<a href="#term">قوانین سایت </a>' //html Content
+
+            ],function hrb_success(e) { // Run in button Ok
+                // alert('hamidreza biglari')
+            },function hrb_cancel(e) { // Run in button Ok
+                // alert('hamidreza biglari')
+            }
+        );
+    })
+    $("a.demoLink.htmlPopup").click(function () {
+        hrb_alert(
+            [
+                'warning', //['danger','success','warning','info']
+                'بازیابی کلمه عبور',
+                'ایمیل خود را جهت بازیابی کلمه عبور وارد نمایید.',
+                'sendCancel', //['ok','okCancel','sendCancel','delCancel','cancel']
+                '<label for="email">ایمیل خود را وارد نمایید</label><input id="email" type="email" placeholder="Email" name="email">' //html Content
+            ],function hrb_success(e) { // Run in button Ok
+                var data = $(".frm_hrb_alert_Send_Data").serialize();
+                alert(data)
+                setTimeout(function () {
+
+                    hrb_alert(
+                        [
+                            'success', //['danger','success','warning','info']
+                            'عملیات موفق!',
+                            'ایمیلی جهت بازیابی کلمه عبور برایتان ارسال شد.',
+                            'ok', //['ok','okCancel','sendCancel','delCancel','cancel']
+                        ],function hrb_success(e) { // Run in button Ok
+                            // alert('Success !');
+                        },function hrb_cancel(e) { // Run in button Ok
+                            // alert('hamidreza biglari')
+                        }
+                    );
+                },200);
+            },function hrb_cancel(e) { // Run in button Ok
+                // alert('hamidreza biglari')
+            }
+        );
+    })
+</script>
+</html>
