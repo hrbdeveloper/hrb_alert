@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0e845564-6771-493d-871d-1fa9da789766" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/dist/js/hrb_alert1.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo.html" beforeDir="false" afterPath="$PROJECT_DIR$/demo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/hrb_alert.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/hrb_alert.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,6 +25,12 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/dist/js" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Biglari\Ultimate Project\Custom User Profile\hrb_alert\dist\js" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -47,7 +56,8 @@
       <updated>1574583714385</updated>
       <workItem from="1574583716309" duration="6466000" />
       <workItem from="1574591149594" duration="469000" />
-      <workItem from="1574592203607" duration="793000" />
+      <workItem from="1574592203607" duration="1394000" />
+      <workItem from="1575179058157" duration="940000" />
     </task>
     <servers />
   </component>
