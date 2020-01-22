@@ -54,6 +54,8 @@
                 'مطمئنید که میخواهید حذف کنید ؟!',
                 'در صورت تایید این مطلب به صورت کامل حذف خواهد شد',
                 'delCancel', //['ok','okCancel','sendCancel','delCancel','cancel']
+                'حذفش کن',
+                'کنسل',
             ],function hrb_success(e) { // Run in button Ok
                 setTimeout(function () {
                     hrb_alert(
@@ -62,6 +64,8 @@
                             'عملیات موفق!',
                             'مطلب مورد نظر با موفقیت حذف شد',
                             'ok', //['ok','okCancel','sendCancel','delCancel','cancel']
+                             'باشه',
+                            
                         ],function hrb_success(e) { // Run in button Ok
                             // alert('hamidreza biglari')
                         },function hrb_cancel(e) { // Run in button Ok
@@ -81,6 +85,7 @@
                 'کاربر گرامی',
                 'متن مورد نظر جهت نمایش به کاربر در اینجا',
                 'ok', //['ok','okCancel','sendCancel','delCancel','cancel']
+                'حله',
             ]);
     })
     $("a.demoLink.okCancel").click(function () {
@@ -90,6 +95,8 @@
                 'آیا قوانین سایت را قبول دارید؟',
                 'در صورت تایید شما موظفید طبق قوانین سایت عمل نمایید',
                 'okCancel', //['ok','okCancel','sendCancel','delCancel','cancel']
+                'باشه',
+                'Cancel',
                 '<a href="#term">قوانین سایت </a>' //html Content
 
             ],function hrb_success(e) { // Run in button Ok
@@ -106,6 +113,8 @@
                 'بازیابی کلمه عبور',
                 'ایمیل خود را جهت بازیابی کلمه عبور وارد نمایید.',
                 'sendCancel', //['ok','okCancel','sendCancel','delCancel','cancel']
+                'ارسال کن',
+                'کنسل',
                 '<label for="email">ایمیل خود را وارد نمایید</label><input id="email" type="email" placeholder="Email" name="email">' //html Content
             ],function hrb_success(e) { // Run in button Ok
                 var data = $(".frm_hrb_alert_Send_Data").serialize();
@@ -118,6 +127,8 @@
                             'عملیات موفق!',
                             'ایمیلی جهت بازیابی کلمه عبور برایتان ارسال شد.',
                             'ok', //['ok','okCancel','sendCancel','delCancel','cancel']
+                            'باشه',
+                            'Cancel',
                         ],function hrb_success(e) { // Run in button Ok
                             // alert('Success !');
                         },function hrb_cancel(e) { // Run in button Ok

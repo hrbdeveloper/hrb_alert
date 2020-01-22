@@ -1,3 +1,75 @@
 // HRB_ALERT Powered By Hamidreza Biglari WWW.HRBCMS.IR
-var _0x1110=['.btn_hrb_alert.cancel','.btn_hrb_alert.send','.btn_hrb_alert.info','.btn_hrb_alert.del','.bg_hrb_alert','removeClass','show','body\x20.bg_hrb_alert\x20,\x20body\x20.hrb_alert','remove','<button\x20class=\x22btn_hrb_alert\x20info\x22>قبول</button>','<button\x20class=\x22btn_hrb_alert\x20cancel\x22>انصراف</button><button\x20class=\x22btn_hrb_alert\x20info\x22>قبول</button>','sendCancel','<button\x20class=\x22btn_hrb_alert\x20cancel\x22>انصراف</button><button\x20class=\x22btn_hrb_alert\x20send\x20submit\x22>ارسال</button>','delCancel','<button\x20class=\x22btn_hrb_alert\x20cancel\x22>انصراف</button><button\x20class=\x22btn_hrb_alert\x20del\x22>حذف</button>','cancel','<button\x20class=\x22btn_hrb_alert\x20cancel\x22>انصراف</button>','success','<div\x20class=\x22f-modal-icon\x20f-modal-success\x20animate\x22><span\x20class=\x22f-modal-line\x20f-modal-tip\x20animateSuccessTip\x22></span><span\x20class=\x22f-modal-line\x20f-modal-long\x20animateSuccessLong\x22></span><div\x20class=\x22f-modal-placeholder\x22></div><div\x20class=\x22f-modal-fix\x22></div></div>','<div\x20class=\x22f-modal-icon\x20f-modal-error\x20animate\x22><span\x20class=\x22f-modal-x-mark\x22><span\x20class=\x22f-modal-line\x20f-modal-left\x20animateXLeft\x22></span><span\x20class=\x22f-modal-line\x20f-modal-right\x20animateXRight\x22></span></span><div\x20class=\x22f-modal-placeholder\x22></div><div\x20class=\x22f-modal-fix\x22></div></div>','warning','<div\x20class=\x22f-modal-icon\x20f-modal-warning\x20scaleWarning\x22><span\x20class=\x22f-modal-body\x20pulseWarningIns\x22></span><span\x20class=\x22f-modal-dot\x20pulseWarningIns\x22></span></div>','info','<div\x20class=\x22info\x22><div\x20class=\x22f-modal-icon\x20f-modal-warning\x20scaleWarning\x22><span\x20class=\x22f-modal-body\x20pulseInfoIns\x22></span><span\x20class=\x22f-modal-dot\x20pulseInfoIns\x22></span></div></div>','<div\x20class=\x22hrb_alert_html_content\x22><form\x20action=\x22\x22\x20class=\x22frm_hrb_alert_Send_Data\x22>','</form></div>','</i><h2\x20class=\x22title_hrb_alert\x22>','</h2><p\x20class=\x22text_hrb_alert\x22>','</div></div></div></div>','body','append','addClass','.hrb_alert','.content_hrb_alert\x20.close\x20,\x20.bg_hrb_alert','click'];(function(_0xd9e84e,_0x4578f3){var _0x1a4ba3=function(_0x555a63){while(--_0x555a63){_0xd9e84e['push'](_0xd9e84e['shift']());}};_0x1a4ba3(++_0x4578f3);}(_0x1110,0x90));var _0x53de=function(_0x406ee4,_0x18ccad){_0x406ee4=_0x406ee4-0x0;var _0xbc143d=_0x1110[_0x406ee4];return _0xbc143d;};function close_hrb_alert(){$(_0x53de('0x0'))[_0x53de('0x1')](_0x53de('0x2'));$('.hrb_alert')[_0x53de('0x1')](_0x53de('0x2'));setTimeout(function(){$(_0x53de('0x3'))[_0x53de('0x4')]();},0xc8);}function hrb_alert([_0x37b609,_0x1d6806,_0x19f62d,_0x1b25f1,_0x8380f7],_0x167888,_0x52e5e7){var _0x3ee8e6='',_0x572097='',_0x264a9d='',_0x55acad='',_0x1410ab='',_0x2f389e='';switch(_0x1b25f1){case'ok':_0x3ee8e6=_0x53de('0x5');break;case'okCancel':_0x3ee8e6=_0x53de('0x6');break;case _0x53de('0x7'):_0x3ee8e6=_0x53de('0x8');break;case _0x53de('0x9'):_0x3ee8e6=_0x53de('0xa');break;case _0x53de('0xb'):_0x3ee8e6=_0x53de('0xc');break;default:break;}if(_0x19f62d!=null){switch(_0x37b609){case _0x53de('0xd'):_0x572097=_0x53de('0xe');break;case'danger':_0x572097=_0x53de('0xf');break;case _0x53de('0x10'):_0x572097=_0x53de('0x11');break;case _0x53de('0x12'):_0x572097=_0x53de('0x13');break;default:break;}_0x55acad=_0x19f62d;}else{_0x55acad='';}if(_0x1d6806!=null){_0x264a9d=_0x1d6806;}else{_0x264a9d='';}if(_0x8380f7!=null){_0x2f389e=_0x53de('0x14')+_0x8380f7+_0x53de('0x15');}else{_0x2f389e='';}_0x1410ab='<i\x20class=\x22bg_hrb_alert\x22></i><div\x20class=\x22hrb_alert\x22><div\x20class=\x22content_hrb_alert\x22><i\x20class=\x22close\x20fal\x20fa-times\x22></i><i\x20class=\x22icon_hrb_alert\x22>'+_0x572097+_0x53de('0x16')+_0x264a9d+_0x53de('0x17')+_0x55acad+'</p>'+_0x2f389e+'<div\x20class=\x22btns_hrb_alert\x22>'+_0x3ee8e6+_0x53de('0x18');$('.bg_hrb_alert\x20,.hrb_alert')[_0x53de('0x4')]();$(_0x53de('0x19'))[_0x53de('0x1a')](_0x1410ab);setTimeout(function(){$(_0x53de('0x0'))[_0x53de('0x1b')](_0x53de('0x2'));$(_0x53de('0x1c'))[_0x53de('0x1b')](_0x53de('0x2'));},0x1);$(_0x53de('0x1d'))[_0x53de('0x1e')](function(){close_hrb_alert();});$(_0x53de('0x1f'))[_0x53de('0x1e')](function(){close_hrb_alert();_0x52e5e7();});$(_0x53de('0x20'))[_0x53de('0x1e')](function(){_0x167888();});$(_0x53de('0x21'))['click'](function(){close_hrb_alert();_0x167888();});$(_0x53de('0x22'))[_0x53de('0x1e')](function(){close_hrb_alert();_0x167888();});}
-// HRB_ALERT Powered By Hamidreza Biglari WWW.HRBCMS.IR
+function close_hrb_alert(){
+    $(".bg_hrb_alert").removeClass('show');
+    $(".hrb_alert").removeClass('show');
+    setTimeout(function () {
+        $('body .bg_hrb_alert , body .hrb_alert').remove();
+    },200);
+}
+function hrb_alert([type, title, text, btn,TextOkDelSendSubmit,textCancel,html], hrb_success, hrb_cancel) {
+    var $btns = "", $type = "", $title = "", $text = "", html_hrb_alert = "", $html_content="";
+    switch (btn) {
+        case 'ok' :
+            $btns = '<button class="btn_hrb_alert info">'+TextOkDelSendSubmit+'</button>';
+            break;
+        case 'okCancel' :
+            $btns = '<button class="btn_hrb_alert cancel">'+textCancel+'</button><button class="btn_hrb_alert info">'+TextOkDelSendSubmit+'</button>';
+            break;
+        case 'sendCancel' :
+            $btns = '<button class="btn_hrb_alert cancel">'+textCancel+'</button><button class="btn_hrb_alert send submit">'+TextOkDelSendSubmit+'</button>';
+            break;
+        case 'delCancel' :
+            $btns = '<button class="btn_hrb_alert cancel">'+textCancel+'</button><button class="btn_hrb_alert del">'+TextOkDelSendSubmit+'</button>';
+            break;
+        case 'cancel' :
+            $btns = '<button class="btn_hrb_alert cancel">'+textCancel+'</button>';
+            break;
+        default :
+            break;
+    }
+    if(text != null){
+        switch (type) {
+            case 'success' :
+                $type = '<div class="f-modal-icon f-modal-success animate"><span class="f-modal-line f-modal-tip animateSuccessTip"></span><span class="f-modal-line f-modal-long animateSuccessLong"></span><div class="f-modal-placeholder"></div><div class="f-modal-fix"></div></div>';
+                break;
+            case 'danger' :
+                $type = '<div class="f-modal-icon f-modal-error animate"><span class="f-modal-x-mark"><span class="f-modal-line f-modal-left animateXLeft"></span><span class="f-modal-line f-modal-right animateXRight"></span></span><div class="f-modal-placeholder"></div><div class="f-modal-fix"></div></div>';
+                break;
+            case 'warning' :
+                $type = '<div class="f-modal-icon f-modal-warning scaleWarning"><span class="f-modal-body pulseWarningIns"></span><span class="f-modal-dot pulseWarningIns"></span></div>';
+                break;
+            case 'info' :
+                $type = '<div class="info"><div class="f-modal-icon f-modal-warning scaleWarning"><span class="f-modal-body pulseInfoIns"></span><span class="f-modal-dot pulseInfoIns"></span></div></div>';
+                break;
+            default :
+                break;
+        }
+        $text = text;
+    }else{
+        $text = ""
+    }
+    if(title != null){
+        $title = title;
+    }else{
+        $title = ""
+    }
+
+    if(html != null){
+        $html_content = '<div class="hrb_alert_html_content"><form action="" class="frm_hrb_alert_Send_Data">'+html+'</form></div>';
+    }else{
+        $html_content = "";
+    }
+    html_hrb_alert = '<i class="bg_hrb_alert"></i><div class="hrb_alert"><div class="content_hrb_alert"><i class="close fal fa-times"></i><i class="icon_hrb_alert">'+$type+'</i><h2 class="title_hrb_alert">' + $title + '</h2><p class="text_hrb_alert">' + $text + '</p>'+$html_content+'<div class="btns_hrb_alert">' + $btns + '</div></div></div></div>';
+    $('.bg_hrb_alert ,.hrb_alert').remove();
+    $('body').append(html_hrb_alert);
+
+    setTimeout(function () {
+        $(".bg_hrb_alert").addClass('show');
+        $(".hrb_alert").addClass('show');
+    }, 1);
+
+    $(".content_hrb_alert .close , .bg_hrb_alert").click(function () {close_hrb_alert()});
+    $(".btn_hrb_alert.cancel").click(function () { close_hrb_alert();hrb_cancel()});
+    $('.btn_hrb_alert.send , .btn_hrb_alert.info').click(function () {close_hrb_alert();hrb_success();});
+    $('.btn_hrb_alert.del').click(function () {close_hrb_alert();hrb_success()});
+}// HRB_ALERT Powered By Hamidreza Biglari WWW.HRBCMS.IR
