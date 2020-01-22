@@ -3,7 +3,7 @@ custom alert Ajax
 
 Call Function : 
 
-hrb_alert([
+hrb_alert([ 
     type,  /*['danger','success','warning','info']*/
     title,   /*Larg Title*/
     text,   /*Description Alert*/
